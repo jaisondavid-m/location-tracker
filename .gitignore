@@ -1,0 +1,110 @@
+# --------------------
+# Environment / Secrets
+# --------------------
+.env
+.env.*
+**/.env
+*.local
+
+# --------------------
+# Logs
+# --------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --------------------
+# Node / React Native
+# --------------------
+node_modules/
+.npm/
+
+# Package manager caches
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# React Native / Metro / Jest
+coverage/
+.nyc_output/
+.jest/
+.metro-health-check*
+metro-cache/
+
+# Optional Expo-generated files (safe to ignore even for RN CLI projects)
+.expo/
+.expo-shared/
+web-build/
+
+# --------------------
+# Android (React Native)
+# --------------------
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/android/app/debug/
+**/android/app/release/
+**/android/local.properties
+**/android/captures/
+**/android/.cxx/
+
+# Keep wrapper JAR and gradle files tracked; ignore temporary wrapper cache dirs only
+**/android/gradle-app.setting
+
+# --------------------
+# iOS (React Native)
+# --------------------
+**/ios/build/
+**/ios/Pods/
+**/ios/DerivedData/
+**/ios/*.xcworkspace/xcuserdata/
+**/ios/*.xcodeproj/xcuserdata/
+**/ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+**/ios/.symlinks/
+
+# Ruby / Bundler (React Native iOS tooling)
+.bundle/
+
+# --------------------
+# Go / Gin
+# --------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.cover
+coverage.out
+cover.out
+
+# Binaries / temp output
+bin/
+dist/
+tmp/
+
+# Go workspace and tooling caches (repo-local)
+go.work.sum
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# OS Files
+# --------------------
+.DS_Store
+Thumbs.db
+desktop.ini

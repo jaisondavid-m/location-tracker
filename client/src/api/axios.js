@@ -7,7 +7,7 @@ import { Platform } from 'react-native';
 // 10.0.2.2 is the special alias Android emulator uses to reach the host machine.
 // On a real physical device, replace with your machine's LAN IP (e.g. 192.168.1.5).
 const getBaseUrl = () => {
-    return 'http://localhost:8000';
+    return 'https://location-tracker-2b5v.onrender.com';
 
 };
 
